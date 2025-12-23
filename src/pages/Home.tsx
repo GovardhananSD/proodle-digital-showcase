@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Cloud, Shield, Code, Cpu, ArrowRight, CheckCircle2 } from "lucide-react";
+import { GraduationCap, Database, Code, Layers, PenTool, ArrowRight, CheckCircle2 } from "lucide-react";
 import HeroSlider from "@/components/HeroSlider";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialSlider from "@/components/TestimonialSlider";
@@ -12,24 +12,29 @@ const Home = () => {
 
   const services = [
     {
-      icon: Cloud,
-      title: "Cloud Solutions",
-      description: "Seamless migration and management of cloud infrastructure for optimal performance and scalability.",
+      icon: GraduationCap,
+      title: "Computer Training & Programming",
+      description: "Professional training programs and hands-on programming courses to upskill your workforce with the latest technologies.",
     },
     {
-      icon: Shield,
-      title: "Cybersecurity",
-      description: "Comprehensive security solutions to protect your business from evolving digital threats.",
+      icon: Database,
+      title: "Data Processing & Publishing",
+      description: "Efficient data processing, transformation, and publishing solutions to streamline your business operations.",
     },
     {
       icon: Code,
       title: "Software Development",
-      description: "Custom software solutions tailored to your unique business requirements and goals.",
+      description: "Custom software solutions designed to meet your unique business needs, from web apps to enterprise systems.",
     },
     {
-      icon: Cpu,
-      title: "IT Consulting",
-      description: "Strategic technology guidance to help you make informed decisions and maximize ROI.",
+      icon: Layers,
+      title: "System Design & Architecture",
+      description: "Robust system architecture and design services to build scalable, secure, and high-performance solutions.",
+    },
+    {
+      icon: PenTool,
+      title: "Computer Aided Designs",
+      description: "Professional CAD services for engineering, manufacturing, and architectural design projects.",
     },
   ];
 

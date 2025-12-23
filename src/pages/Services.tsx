@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Cloud, Shield, Code, Database, Network, Headphones, Server, Smartphone } from "lucide-react";
+import { GraduationCap, Database, Code, Layers, PenTool, BarChart3, Ship, Wrench, Cpu, BookOpen, Terminal, Megaphone, HeadphonesIcon } from "lucide-react";
 import ServiceCard from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -10,44 +10,69 @@ const Services = () => {
 
   const services = [
     {
-      icon: Cloud,
-      title: "Cloud Solutions",
-      description: "Seamless cloud migration, management, and optimization services. We help you leverage AWS, Azure, and Google Cloud for maximum efficiency and cost savings.",
-    },
-    {
-      icon: Shield,
-      title: "Cybersecurity",
-      description: "Comprehensive security solutions including threat detection, vulnerability assessments, penetration testing, and security policy development to protect your digital assets.",
-    },
-    {
-      icon: Code,
-      title: "Custom Software Development",
-      description: "Bespoke software solutions tailored to your business needs. From web applications to mobile apps, we build scalable, maintainable, and user-friendly solutions.",
+      icon: GraduationCap,
+      title: "Computer Training & Programming",
+      description: "Professional training programs and programming courses designed to upskill your team with modern technologies and coding best practices.",
     },
     {
       icon: Database,
-      title: "Data Analytics & BI",
-      description: "Transform your data into actionable insights with our analytics and business intelligence solutions. Make data-driven decisions with confidence.",
+      title: "Data Processing & Publishing",
+      description: "Comprehensive data processing, formatting, and publishing solutions to transform raw data into actionable business intelligence.",
     },
     {
-      icon: Network,
-      title: "Network Infrastructure",
-      description: "Design, implementation, and maintenance of robust network infrastructure. Ensure reliable connectivity and optimal performance across your organization.",
+      icon: Code,
+      title: "Software Development",
+      description: "Custom software solutions built to your specifications, from web applications and mobile apps to enterprise-level systems.",
     },
     {
-      icon: Headphones,
-      title: "IT Support & Helpdesk",
-      description: "24/7 technical support and helpdesk services. Our experienced team ensures your systems run smoothly with minimal downtime and rapid issue resolution.",
+      icon: Layers,
+      title: "System Design & Architecture",
+      description: "Expert system architecture services to design scalable, secure, and high-performance technology infrastructure for your organization.",
     },
     {
-      icon: Server,
-      title: "Managed IT Services",
-      description: "Complete IT management and monitoring services. Focus on your core business while we handle all your technology needs proactively.",
+      icon: PenTool,
+      title: "Computer Aided Designs",
+      description: "Professional CAD services for engineering, manufacturing, and architectural projects using industry-standard design software.",
     },
     {
-      icon: Smartphone,
-      title: "Digital Transformation",
-      description: "Strategic guidance and implementation support for your digital transformation journey. Modernize your business processes and stay competitive.",
+      icon: BarChart3,
+      title: "Data Compilation & Statistical Analysis",
+      description: "Advanced data compilation, statistical modeling, and analytics services to drive data-driven decision making in your business.",
+    },
+    {
+      icon: Ship,
+      title: "Trading, Imports & Exports",
+      description: "IT solutions for trading operations, import/export management systems, and supply chain technology optimization.",
+    },
+    {
+      icon: Wrench,
+      title: "Assembling & Repairs",
+      description: "Hardware assembling, maintenance, and repair services for computers, servers, and IT equipment to keep your systems running smoothly.",
+    },
+    {
+      icon: Cpu,
+      title: "Industrial Automation Systems",
+      description: "Design and implementation of industrial automation systems, IoT devices, and smart gadgets for manufacturing efficiency.",
+    },
+    {
+      icon: BookOpen,
+      title: "Computer Related Training",
+      description: "Comprehensive training programs covering computer fundamentals, office applications, and essential digital literacy skills.",
+    },
+    {
+      icon: Terminal,
+      title: "Programming & IT Training",
+      description: "Specialized training courses in programming languages, software development, and advanced IT certifications for professionals.",
+    },
+    {
+      icon: Megaphone,
+      title: "Digital Marketing",
+      description: "Strategic digital marketing services including SEO, social media management, content marketing, and online advertising campaigns.",
+    },
+    {
+      icon: HeadphonesIcon,
+      title: "Consulting & Support",
+      description: "Expert IT consulting and ongoing technical support services to help you make informed technology decisions and resolve issues quickly.",
     },
   ];
 
